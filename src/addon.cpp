@@ -1,8 +1,6 @@
 #include <nan.h>
 
-#include <functional>
 #include <iostream>
-#include <thread>
 
 #include "SPSCQueue.h"
 
