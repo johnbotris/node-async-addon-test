@@ -1,0 +1,23 @@
+{
+  "name": "async-native-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "node-gyp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^7.1.2"
+  },
+  "dependencies": {
+    "nan": "^2.14.2",
+    "node-addon-api": "^3.1.0"
+  },
+  "gypfile": true,
+  "private": true
+}
